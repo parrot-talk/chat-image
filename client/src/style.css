@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ 
+
+  /* global.css */
+.App.light .primary {
+  color: #121212 ; 
+}
+
+.App.light .secondary {
+  color: #FFFFFF ; 
+}
+
+.App.light .tertiary {
+  color: #434343; 
+}
+
+.App.dark .primary {
+  color: #FF69B4; 
+}
+
+.App.dark .secondary {
+  color: #FFC0CB; 
+}
+
+.App.dark .tertiary {
+  color: #FF91A4; 
+}
+.App.light .bprimary {
+   background-color:#121212  ;
+}
+
+.App.light .bsecondary { 
+  background-color:#FFFFFF ;
+}
+
+.App.light .btertiary { 
+  background-color:#CBA135 ;
+}
+
+.App.dark .bprimary { 
+  background-color:#FF69B4;
+}
+
+.App.dark .bsecondary { 
+  background-color:#FFC0CB;
+}
+
+.App.dark .btertiary { 
+  background-color:#FF91A4;
+}
+
+.App.dark .bdtertiary { 
+  background-color:#e85875;
+}
+.App.light .bdtertiary { 
+  background-color:#9A7A26;
+}
+
+.App.dark .option { 
+  color:#FFFFFF;
+}
+.App.light .option { 
+  color:#434343;
+}
+.App.dark .output { 
+  color:#000000;
+}
+.App.light .output { 
+  color:#FFFFFF;
+}
